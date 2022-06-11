@@ -1,0 +1,45 @@
+﻿@model IEnumerable<NutriHub.Models.direccionUsuario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Direcciones</h2>
+
+<p>
+    @Html.ActionLink("Agregar dirección", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Cantón
+        </th>
+        <th>
+            Distrito
+        </th>
+        <th>
+            Provincia
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.canton)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.distrito)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.provincia)
+    </td>
+    <td>
+        <a href="@Url.Action("Edit", "direccionUsuarios", new { /* id=item.PrimaryKey */})" class="btn-index">Editar<i class=" icon ion-md-create"></i></a>
+        <a href="@Url.Action("Details", "direccionUsuarios", new { /* id=item.PrimaryKey */ })" class="btn-index">Detalles  <i class=" ion-md-add"></i></a>
+        <a href="@Url.Action("Delete", "direccionUsuarios", new { /* id=item.PrimaryKey */ })" class="btn-index">Eliminar<i class=" icon ion-md-trash"></i></a>
+    </td>
+</tr>
+}
+
+</table>

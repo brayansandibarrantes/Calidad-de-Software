@@ -1,0 +1,68 @@
+﻿@model IEnumerable<NutriHub.Models.PacientePlanNutricional>
+
+@{
+    ViewBag.Title = "Plan nutricional";
+    ViewBag.id = Model.First().idPaciente;
+    Layout = "~/Views/Shared/_LayoutPa.cshtml";
+}
+
+@Html.ActionLink("Volver", "IndexPaciente", "Home", new { id = Model.First().idPaciente }, new {@class = "btn btn-home topmargin-sm" })
+
+<h2>Plan nutricional</h2>
+
+<p>
+    @Html.ActionLink("Asignar paciente al plan nutricional", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Kcal
+        </th>
+        <th>
+            Nutriente
+        </th>
+        <th>
+            Alimento
+        </th>
+        <th>
+            Vet
+        </th>
+        <th>
+            Porcion
+        </th>
+        <th>
+            Proposito
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.kcal)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.IngestaDiaria.Nutriente1.nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.Alimento.nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.vet)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.porcion)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.proposito)
+    </td>
+    <td>
+        @Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Detalles", "Details", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Eliminar", "Delete", new { /* id=item.PrimaryKey */ })
+    </td>
+</tr>
+    }
+
+</table>

@@ -1,0 +1,87 @@
+﻿@model NutriHub.Models.Padecimiento
+
+@{
+    ViewBag.Title = "Eliminar padecimiento";
+}
+
+<h2>Eliminar padecimiento</h2>
+
+<div class="form-group col-md-7">
+    <div class="label">
+        <h3>¿Desea eliminar este padecimiento</h3>
+    </div>
+</div>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <div class="form-group col-md-12">
+                <div class="label">
+                    @Html.LabelFor(model => model.idPadecimiento, "Nombre del padecimiento", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
+            </div>
+        </dt>
+
+        <dd>
+            <div class="form-group col-md-10">
+                <div class="col-md-10">
+                    <div class="label">
+                        @Html.DisplayFor(model => model.nombre)
+                    </div>
+                </div>
+            </div>
+        </dd>
+
+        <dt>
+            <div class="form-group col-md-7">
+                <div class="label">
+                    @Html.LabelFor(model => model.idPadecimiento, "Descripción", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
+            </div>
+        </dt>
+
+        <dd>
+            <div class="form-group col-md-10">
+                <div class="col-md-10">
+                    <div class="label">
+                        @Html.DisplayFor(model => model.descripcion)
+                    </div>
+                </div>
+            </div>
+        </dd>
+
+        <dt>
+            <div class="form-group col-md-7">
+                <div class="label">
+                    @Html.LabelFor(model => model.idPadecimiento, "Tratamiento", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
+            </div>
+        </dt>
+
+        <dd>
+            <div class="form-group col-md-10">
+                <div class="col-md-10">
+                    <div class="label">
+                        @Html.DisplayFor(model => model.tratamiento)
+                    </div>
+                </div>
+            </div>
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group col-md-10">
+            <div class="col-md-10">
+                <div class="label">
+                    <input type="submit" value="Eliminar" class="btn btn-primary" /> |
+                    @Html.ActionLink("Volver a la lista", "Index", new { usuario = ViewBag.id })
+                </div>
+            </div>
+        </div>
+    }
+</div>

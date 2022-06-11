@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Nutrición desde la casa">
+    <meta name="keywords" content=" Una buena nutrición">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="~/img/nutri.ico" />
+
+
+    @Styles.Render("~/Content/css")
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>@ViewBag.Title - Nutrihub</title>
+
+
+
+    <link rel="stylesheet" type="text/css" href="~/datatables/datatables.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/datatables/DataTables-1.10.22/css/dataTables.bootstrap4.min.css">
+
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            @*new { controller = "IniciarSesion", action = "iniciarSesion", id = UrlParameter.Optional }*@
+            <a class="navbar-brand" href="@Url.Action("IniciarSesion", "iniciarSesion")"><img src="~/img/Final.png" class="logo-brand" alt="logo" /> </a>
+            @*<a class="navbar-brand" href="@Url.Action("iniciarSesion", "IniciarSesion", FormMethod.Post))"><img src="~/img/Final.png" class="logo-brand" alt="logo" /> </a>*@
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="icon ion-md-menu"></i>
+            </button>
+        </div>
+    </nav>
+
+
+    @RenderBody()
+
+    <footer>
+        <p>&copy; @DateTime.Now.Year - Nutrihub</p>
+    </footer>
+
+
+
+    @Scripts.Render("~/bundles/bootstrap")
+    <script type="text/javascript" src="~/datatables/datatables.min.js"></script>
+    <script type="text/javascript" src="~/Content/main.js"></script>
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>
+

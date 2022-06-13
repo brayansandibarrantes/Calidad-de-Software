@@ -1,0 +1,174 @@
+﻿@model NutriHub.Models.ModelNutricionistaIndex
+
+@{
+    ViewBag.Title = "Inicio";
+    ViewBag.id = Model.Usuario.cedula;
+}
+
+
+<section id="hero">
+    <div class="container">
+        <div class=" row">
+            <div class="col-sm-11">
+                <div class="content-center topmargin-lg">
+
+                    @{
+                        string saludo;
+                        if (Model.Nutricionista.sexo == true)
+                        {
+                            saludo = "Bienvenido";
+                        }
+                        else
+                        {
+                            saludo = "Bienvenida";
+                        }
+                    }
+                    <h1>@saludo</h1>
+                    <p>@Model.Usuario.nombreUsuario</p>
+                    <a hfer="@Url.Action("Index", "PlanNutricional", new { id = ViewBag.id })" class="btn btn-home topmargin-sm">Plan Nutricional<i class="navbar-toggler-icon ion-md-arrow-dropright-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container-fluid">
+
+        <div class=" row" style="margin-bottom: 50px;">
+
+            <div class="col-md-6">
+                <h2>Pacientes <i class="icon ion-md-people"></i><a href="@Url.Action("Create", "Pacientes", new { id = ViewBag.id })" class="btn-link"><i class="icon ion-md-add"></i></a></h2>
+                <div class="pre-scrollable">
+                    <div class="portfolio-container">
+                        <table class="table">
+
+                            <tr style="background: #69C243; color: white;">
+                                <th>
+                                    Nombre del paciente
+                                </th>
+                                <th>
+                                    Edad
+                                </th>
+                                <th>
+                                    Ocupación
+                                </th>
+                                <th>
+                                    Opciones
+                                </th>
+                            </tr>
+
+                            @foreach (var item in Model.Pacientes)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Usuario.nombreUsuario)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.edad)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ocupacion)
+                                    </td>
+                                    <td>
+                                        <a href="@Url.Action("Details", "Pacientes", new { id = item.cedula })" class="btn-link"><i class="icon ion-md-add"></i></a>
+                                        <a href="@Url.Action("Edit", "Pacientes", new { id = item.cedula })" class="btn-link"><i class="icon ion-md-create"></i></a>
+                                        <a href="@Url.Action("Delete", "Pacientes", new { id = item.cedula })" class="btn-link"> <i class="icon ion-md-trash"></i></a>
+                                    </td>
+                                </tr>
+                            }
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+
+                <h2>Citas   <i class="icon ion-md-calendar"></i></h2>
+                <div class="pre-scrollable">
+                    <div class="portfolio-container">
+                        <table class="table "  >
+                            <thead>
+                                <tr style="background: #69C243; color: white">
+
+                                    <th>
+                                        Fecha
+                                    </th>
+                                    <th>
+                                        Hora
+                                    </th>
+                                    <th>
+                                        Nombre
+                                    </th>
+                                    <th>
+                                        Estado
+                                    </th>
+                                    <th>
+                                        opciones
+                                    </th>
+
+                                </tr>
+                                </thead>
+                            <tbody>
+                                @foreach (var item in Model.Citas)
+                                {
+                                    <tr>
+                                        <td>
+                                            @item.fecha.ToString("dd/MMMM/yyyy")
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.hora)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Paciente.Usuario.nombreUsuario)
+
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.estado)
+                                        </td>
+                                        <td>
+                                            <a href="@Url.Action("Details", "Citas", new { id = item.idCita })" class="btn-link"> <i class=" ion-md-add"> Detalles </i></a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class=" row">
+            <div class="col-md-6">
+                <div class="portfolio-container">
+                    <div class="portfolio-details">
+                        <a href="@Url.Action("Index", "Consejo", new { id = ViewBag.id}, null)">
+                            <h2> Consejos </h2>
+                        </a>
+                        <a href="@Url.Action("Index", "Consejo", new { id = ViewBag.id}, null)">
+                            <p>-Agregar Consejo</p>
+                        </a>
+                    </div>
+                    <img src="~/img/porcion.jpg" class="img-fluid" alt="portfolio 1">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="portfolio-container">
+                    <div class="portfolio-details">
+                        <a href="@Url.Action("Index", "Alimento", new { id = ViewBag.id}, null)">
+                            <h2>Alimento </h2>
+                        </a>
+                        <a href="@Url.Action("Index", "Alimento", new { id = ViewBag.id}, null)">
+                            <p>- Agregar alimento</p>
+                        </a>
+                    </div>
+                    <img src="~/img/variedad.jpg" class="img-fluid" alt="portfolio 4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center topmargin-sm">
+        <p>Lista para cambiar estilos de vida?</p>
+        <a href="#" class="text-dark">Vamos!</a>
+    </div>
+
+</section>

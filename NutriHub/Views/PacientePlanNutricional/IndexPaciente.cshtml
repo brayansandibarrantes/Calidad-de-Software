@@ -1,0 +1,75 @@
+﻿@model IEnumerable<NutriHub.Models.PacientePlanNutricional>
+
+@{
+    ViewBag.Title = "Plan nutricional";
+    Layout = "~/Views/Shared/_LayoutPa.cshtml";
+}
+
+@Html.ActionLink("Volver", "IndexPaciente", "Home", new { id = ViewBag.id }, new {@class = "btn btn-home topmargin-sm" })
+
+<h2>Plan nutricional</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Dia
+        </th>
+        <th>
+            Tiempo
+        </th>
+        <th>
+            Alimento
+        </th>
+        <th>
+            Nutriente
+        </th>
+        <th>
+            Porcion
+        </th>
+        <th>
+            Proposito
+        </th>
+        <th>
+            Vet
+        </th>
+        <th>
+            Kcal
+        </th>
+
+
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.dia)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.tiempoComida)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.Alimento.nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.IngestaDiaria.Nutriente1.nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.porcion)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.proposito)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlanNutricional.vet)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.kcal)
+    </td>
+
+</tr>
+    }
+
+</table>

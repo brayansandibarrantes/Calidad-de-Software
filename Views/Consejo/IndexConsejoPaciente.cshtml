@@ -1,0 +1,41 @@
+﻿@model IEnumerable<NutriHub.Models.Consejo>
+
+@{
+    ViewBag.Title = "Lista de consejos";
+    Layout = "~/Views/Shared/_LayoutPa.cshtml";
+}
+
+<div class="container body-content">
+    <h1>Lista de consejos</h1>
+
+    <table class="table">
+        <tr>
+            <th>
+                Título
+            </th>
+            <th>
+                Mensaje
+            </th>
+            <th>
+                Referencia
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tituloConsejo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.mensajeConsejo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.referencia)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

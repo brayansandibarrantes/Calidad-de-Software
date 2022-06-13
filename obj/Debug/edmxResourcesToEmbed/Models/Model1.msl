@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="exped_nutricionalModelStoreContainer" CdmEntityContainer="exped_nutricionalEntities">
+    <EntitySetMapping Name="Alimento">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.Alimento">
+        <MappingFragment StoreEntitySet="Alimento">
+          <ScalarProperty Name="idAlimento" ColumnName="idAlimento" />
+          <ScalarProperty Name="nutriente" ColumnName="nutriente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cita">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.Cita">
+        <MappingFragment StoreEntitySet="Cita">
+          <ScalarProperty Name="idCita" ColumnName="idCita" />
+          <ScalarProperty Name="idNutricionista" ColumnName="idNutricionista" />
+          <ScalarProperty Name="idPaciente" ColumnName="idPaciente" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Consejo">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.Consejo">
+        <MappingFragment StoreEntitySet="Consejo">
+          <ScalarProperty Name="idConsejo" ColumnName="idConsejo" />
+          <ScalarProperty Name="tituloConsejo" ColumnName="tituloConsejo" />
+          <ScalarProperty Name="mensajeConsejo" ColumnName="mensajeConsejo" />
+          <ScalarProperty Name="referencia" ColumnName="referencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="direccionUsuario">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.direccionUsuario">
+        <MappingFragment StoreEntitySet="direccionUsuario">
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+          <ScalarProperty Name="canton" ColumnName="canton" />
+          <ScalarProperty Name="distrito" ColumnName="distrito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IngestaDiaria">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.IngestaDiaria">
+        <MappingFragment StoreEntitySet="IngestaDiaria">
+          <ScalarProperty Name="idIngesta" ColumnName="idIngesta" />
+          <ScalarProperty Name="nutriente" ColumnName="nutriente" />
+          <ScalarProperty Name="vet" ColumnName="vet" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListaCompras">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.ListaCompras">
+        <MappingFragment StoreEntitySet="ListaCompras">
+          <ScalarProperty Name="idLista" ColumnName="idLista" />
+          <ScalarProperty Name="idAlimento" ColumnName="idAlimento" />
+          <ScalarProperty Name="nutriente" ColumnName="nutriente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nutricionista">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.Nutricionista">
+        <MappingFragment StoreEntitySet="Nutricionista">
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="licencia" ColumnName="licencia" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nutriente">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.Nutriente">
+        <MappingFragment StoreEntitySet="Nutriente">
+          <ScalarProperty Name="idNutriente" ColumnName="idNutriente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Paciente">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.Paciente">
+        <MappingFragment StoreEntitySet="Paciente">
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PacientePlanNutricional">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.PacientePlanNutricional">
+        <MappingFragment StoreEntitySet="PacientePlanNutricional">
+          <ScalarProperty Name="idPaciente" ColumnName="idPaciente" />
+          <ScalarProperty Name="idPlan" ColumnName="idPlan" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="kcal" ColumnName="kcal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Padecimiento">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.Padecimiento">
+        <MappingFragment StoreEntitySet="Padecimiento">
+          <ScalarProperty Name="idPadecimiento" ColumnName="idPadecimiento" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="tratamiento" ColumnName="tratamiento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PadecimientoPaciente">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.PadecimientoPaciente">
+        <MappingFragment StoreEntitySet="PadecimientoPaciente">
+          <ScalarProperty Name="idPadecimiento" ColumnName="idPadecimiento" />
+          <ScalarProperty Name="paciente" ColumnName="paciente" />
+          <ScalarProperty Name="fechaDiagnostico" ColumnName="fechaDiagnostico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlanNutricional">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.PlanNutricional">
+        <MappingFragment StoreEntitySet="PlanNutricional">
+          <ScalarProperty Name="idPlan" ColumnName="idPlan" />
+          <ScalarProperty Name="nutricionista" ColumnName="nutricionista" />
+          <ScalarProperty Name="idIngesta" ColumnName="idIngesta" />
+          <ScalarProperty Name="idAlimento" ColumnName="idAlimento" />
+          <ScalarProperty Name="idNutriente" ColumnName="idNutriente" />
+          <ScalarProperty Name="vet" ColumnName="vet" />
+          <ScalarProperty Name="tiempoComida" ColumnName="tiempoComida" />
+          <ScalarProperty Name="porcion" ColumnName="porcion" />
+          <ScalarProperty Name="proposito" ColumnName="proposito" />
+          <ScalarProperty Name="dia" ColumnName="dia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Progreso">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.Progreso">
+        <MappingFragment StoreEntitySet="Progreso">
+          <ScalarProperty Name="idProgreso" ColumnName="idProgreso" />
+          <ScalarProperty Name="paciente" ColumnName="paciente" />
+          <ScalarProperty Name="talla" ColumnName="talla" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="porcentAgua" ColumnName="porcentAgua" />
+          <ScalarProperty Name="porcentMusculo" ColumnName="porcentMusculo" />
+          <ScalarProperty Name="porcentGrasa" ColumnName="porcentGrasa" />
+          <ScalarProperty Name="circunfBraquial" ColumnName="circunfBraquial" />
+          <ScalarProperty Name="circunfPantorrilla" ColumnName="circunfPantorrilla" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="recibirConsejo">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.recibirConsejo">
+        <MappingFragment StoreEntitySet="recibirConsejo">
+          <ScalarProperty Name="idConsejo" ColumnName="idConsejo" />
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="tipoConsejo" ColumnName="tipoConsejo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="semana">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.semana">
+        <MappingFragment StoreEntitySet="semana">
+          <ScalarProperty Name="idDia" ColumnName="idDia" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tiempoComida">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.tiempoComida">
+        <MappingFragment StoreEntitySet="tiempoComida">
+          <ScalarProperty Name="idTiempoComida" ColumnName="idTiempoComida" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="exped_nutricionalModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="nombreUsuario" ColumnName="nombreUsuario" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="contrasenna" ColumnName="contrasenna" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

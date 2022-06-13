@@ -1,0 +1,142 @@
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\NutriHub.dll.config
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\NutriHub.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\NutriHub.pdb
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\Antlr3.Runtime.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\EntityFramework.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\EntityFramework.SqlServer.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\Newtonsoft.Json.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Helpers.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Mvc.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Optimization.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Razor.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\WebGrease.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\EntityFramework.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\EntityFramework.SqlServer.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Helpers.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Mvc.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Optimization.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Razor.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\Newtonsoft.Json.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\Antlr3.Runtime.pdb
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.Helpers.resources.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.Mvc.resources.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.Optimization.resources.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.Razor.resources.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.WebPages.resources.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.csproj.CopyComplete
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.pdb
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csc.exe
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csc.exe.config
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csc.rsp
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csi.exe
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csi.exe.config
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csi.rsp
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Buffers.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Memory.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\vbc.exe
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\vbc.exe.config
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\vbc.rsp
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\pc\Desktop\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\NutriHub.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\NutriHub.pdb
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csc.exe
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csc.exe.config
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csc.rsp
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csi.exe
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csi.exe.config
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\csi.rsp
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Buffers.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Memory.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\vbc.exe
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\vbc.exe.config
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\vbc.rsp
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\Antlr3.Runtime.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\EntityFramework.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\EntityFramework.SqlServer.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\Newtonsoft.Json.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Helpers.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Mvc.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Optimization.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Razor.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\WebGrease.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\EntityFramework.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\EntityFramework.SqlServer.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\Newtonsoft.Json.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Helpers.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Mvc.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Optimization.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.Razor.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\Antlr3.Runtime.pdb
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.Helpers.resources.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.Mvc.resources.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.Optimization.resources.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.Razor.resources.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.WebPages.resources.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.dll
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.pdb
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\bin\NutriHub.dll.config
+C:\Users\pc\Documents\UCR\PI - BD e IS\Nutricion\proyecto-nutricion\NutriHub\obj\Debug\NutriHub.csproj.CopyComplete

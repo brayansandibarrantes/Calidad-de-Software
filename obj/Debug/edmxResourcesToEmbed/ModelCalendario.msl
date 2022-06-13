@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="exped_nutricionalModel1StoreContainer" CdmEntityContainer="exped_nutricionalEntities1">
+    <EntitySetMapping Name="Citas">
+      <EntityTypeMapping TypeName="exped_nutricionalModel1.Cita">
+        <MappingFragment StoreEntitySet="Cita">
+          <ScalarProperty Name="idCita" ColumnName="idCita" />
+          <ScalarProperty Name="idNutricionista" ColumnName="idNutricionista" />
+          <ScalarProperty Name="idPaciente" ColumnName="idPaciente" />
+          <ScalarProperty Name="idProgreso" ColumnName="idProgreso" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
